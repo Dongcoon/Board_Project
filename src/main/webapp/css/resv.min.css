@@ -1,0 +1,1499 @@
+#dim,
+#slickContainer #smallSlickContainer .slick-slide {
+    opacity: .4
+}
+
+#slickContainer {
+    margin-left: 25px;
+    margin-top: 25px;
+    min-height: 480px
+}
+
+#slickContainer .thumbnail {
+    background-color: #f0f0f0;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+    background-position: 50% 100% !important
+}
+
+#slickContainer #bigSlickContainer {
+    border: 1px solid #DDD;
+    border-radius: 5px;
+    background-color: #EEE;
+    min-height: 300px
+}
+
+#slickContainer #bigSlickContainer .thumbnail {
+    height: 300px;
+    margin-bottom: 0
+}
+
+#slickContainer #bigSlickContainer .slick-dots {
+    bottom: -5px
+}
+
+#slickContainer #smallSlickContainer {
+    margin-right: 10px
+}
+
+#slickContainer #smallSlickContainer .thumbnail {
+    height: 112.5px;
+    margin-left: 10px
+}
+
+#slickContainer #smallSlickContainer .slick-slide:hover {
+    opacity: .7
+}
+
+#slickContainer #smallSlickContainer .slick-slide.slick-nav-main {
+    opacity: 1
+}
+
+.btn:active {
+    outline: 0
+}
+
+#rightContainer .btn-disable {
+    border-radius: 15px;
+    backface-visibility: hidden;
+    color: #f6f6f6;
+    font-size: 14px;
+    background-color: #cfcfcf;
+    border: 1px solid #cfcfcf;
+    pointer-events: none;
+    cursor: not-allowed;
+    -webkit-box-shadow: none;
+    box-shadow: none
+}
+
+#rightContainer .btn-disable .glyphicon-remove {
+    padding-right: 11px;
+    top: 3px;
+    font-size: 16px;
+    font-weight: 100;
+    color: #f6f6f6
+}
+
+#infoContainer {
+    padding-left: 35px
+}
+
+#infoContainer #infoHead {
+    margin-bottom: 20px
+}
+
+#infoContainer #infoHead .fac-group {
+    display: inline-block;
+    margin: 0 10px;
+    border: 1px solid #B7B7B7;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    color: #B7B7B7
+}
+
+#infoContainer #infoHead .fac-group-active {
+    color: #e20000;
+    border-color: #e20000
+}
+
+#infoContainer #infoHead .fac-group:visited {
+    text-decoration: none
+}
+
+#infoContainer #infoHead .fac-group:active {
+    color: #FAFAFA;
+    border: none;
+    background-color: #e20000
+}
+
+#infoContainer #infoHead #infoName {
+    margin-top: 20px;
+    margin-bottom: 20px
+}
+
+#infoContainer .square {
+    display: inline-block;
+    margin-right: 5px;
+    margin-left: 4px;
+    padding: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede
+}
+
+#infoContainer pre {
+    min-height: 95px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 0;
+    font-size: 15px;
+    line-height: 1.9;
+    white-space: pre-wrap;
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    word-wrap: break-all
+}
+
+#infoContainer .buttons>.col-sm-12 {
+    padding-left: 0;
+    padding-right: 0
+}
+
+#infoContainer .buttons #cannotResv {
+    margin: 0;
+    width: 100%;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 0;
+    text-align: center
+}
+
+#infoContainer #infoBody #infoBodyLeft {
+    padding-right: 30px
+}
+
+#infoContainer #infoBody #infoBodyLeft #priceContainer,
+#infoContainer #infoBody #infoBodyLeft #sizeContainerFut {
+    margin: 60px 0;
+    padding: 0 0 0 20px
+}
+
+#infoContainer #infoBody #infoBodyLeft #priceContainer .square,
+#infoContainer #infoBody #infoBodyLeft #sizeContainerFut .square {
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede
+}
+
+#infoContainer #infoBody #infoBodyLeft #priceContainer h3,
+#infoContainer #infoBody #infoBodyLeft #sizeContainerFut h3 {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainerFut h4 {
+    padding: 0 23px;
+    font-size: 16px
+}
+
+#infoContainer #infoBody #infoBodyLeft #priceContainer h4 {
+    margin: 0;
+    font-size: 16px;
+    display: inline-block
+}
+
+#infoContainer #infoBody #infoBodyLeft #priceContainer pre {
+    padding: 2px 23px;
+    line-height: 2
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeCompareContainer #sizeStandard {
+    position: absolute;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeCompareContainer #sizeFac {
+    position: absolute;
+    background-color: rgba(222, 222, 222, .5);
+    z-index: 1
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeCompareContainer #sizeVersus {
+    position: absolute;
+    display: table;
+    width: 100%;
+    z-index: 2
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeCompareContainer #sizeVersus div {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeCompareContainer #sizeVersus div h2 {
+    display: inline-block;
+    margin: 0;
+    padding: 10px 20px;
+    background-color: rgba(100, 100, 100, .75);
+    color: #fff
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer {
+    margin: 10px 0;
+    text-align: center
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer .box {
+    margin-left: 20px;
+    display: inline-block;
+    width: 17px;
+    height: 10px
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer .box.fac {
+    background-color: #DEDEDE
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer .box.standard.soc {
+    background-color: #466626
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer .box.standard.fut {
+    background-color: #BCC7C1
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer .box.standard.bsk {
+    background-color: #F0C179
+}
+
+#infoContainer #infoBody #infoBodyLeft #sizeContainer #sizeStringContainer h6 {
+    display: inline-block;
+    margin: 0 20px 0 0
+}
+
+#infoContainer #infoBody #infoBodyRight {
+    padding-left: 30px
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer {
+    margin-bottom: 10px;
+    text-align: center
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer .col-xs-3 {
+    padding: 10px
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer .col-xs-3 img {
+    width: 75%
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer.fut {
+    margin: 5px 0;
+    text-align: center
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer.fut .col-xs-3 {
+    margin-right: 5%;
+    margin-bottom: 10px;
+    padding: 5px;
+    height: 120px
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer.fut .col-xs-3 img {
+    width: 100%
+}
+
+#infoContainer #infoBody #infoBodyRight #infoBodyIconContainer.fut .col-xs-3 h6 {
+    top: -30px;
+    position: relative;
+    background-color: #fff;
+    font-size: 13px;
+    color: #dfdfdf
+}
+
+#infoContainer #infoBody #infoBodyRight #noteContainer {
+    text-align: left;
+    margin: 20px 0
+}
+
+#infoContainer #infoBody #infoBodyRight #noteContainer .square {
+    display: inline-block;
+    margin-right: 4px;
+    margin-left: 4px;
+    margin-bottom: 3px;
+    padding: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede
+}
+
+#infoContainer #infoBody #infoBodyRight #priceContainer,
+#infoContainer #infoBody3 #noteContainer {
+    margin: 20px 0
+}
+
+#infoContainer #infoBody #infoBodyRight #noteContainer h3 {
+    margin: 0;
+    font-size: 20px;
+    display: inline-block
+}
+
+#infoContainer #infoBody #infoBodyRight #noteContainer h4 {
+    margin: 0;
+    font-size: 16px;
+    display: inline-block
+}
+
+#infoContainer #infoBody #infoBodyRight #noteContainer pre {
+    padding: 2px 23px;
+    line-height: 2
+}
+
+#infoContainer #infoBody #infoBodyRight #priceContainer h4 {
+    margin: 0;
+    display: inline-block
+}
+
+#infoContainer #infoBody3 #infoBodyLeft3,
+#infoContainer #infoBody3 #infoBodyRight3 {
+    padding-left: 30px
+}
+
+#infoContainer #infoBody3 #infoBodyRight3.coX {
+    border-left: none
+}
+
+#infoContainer #infoBody3 #noteContainer h4 {
+    margin: 0;
+    display: inline-block
+}
+
+.bottom-space {
+    height: 200px
+}
+
+#leftContainer label {
+    line-height: 35px;
+    font-weight: 300
+}
+
+#leftContainer input[type=checkbox] {
+    margin: 0 0 0 -15px;
+    height: 35px
+}
+
+#leftContainer .hide {
+    display: none
+}
+
+#leftContainer .help-block {
+    display: inline;
+    padding: 0;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: center;
+    line-height: 35px
+}
+
+#leftContainer .col-sm-3 {
+    padding: 0 0 0 10px
+}
+
+#leftContainer .col-sm-9 {
+    padding: 0;
+    color: silver;
+    font-size: 11px
+}
+
+#leftContainer .col-sm-12 {
+    padding: 0
+}
+
+#leftContainer #calendarHolder {
+    padding: 0 5px
+}
+
+#leftContainer #calendarHolder .circle {
+    height: 20px;
+    width: 16px;
+    margin-right: 10px;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 50%;
+    background-color: #bfbfbf;
+    display: inline-block;
+    color: #fff;
+    overflow: hidden
+}
+
+#leftContainer #calendarHolder #calendarHelper {
+    background-color: #fff;
+    color: #bfbfbf;
+    text-align: right;
+    padding-bottom: 3px;
+    padding-right: 20px
+}
+
+#leftContainer #calendarHolder .ui-datepicker {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    font-size: 12px;
+    width: 100%
+}
+
+#leftContainer #calendarHolder .ui-datepicker td {
+    padding: 0;
+    border: 1px solid silver
+}
+
+#leftContainer #calendarHolder .ui-datepicker td>span {
+    display: block;
+    padding: .2em;
+    text-align: right;
+    text-decoration: none
+}
+
+#leftContainer #calendarHolder .ui-datepicker td>a {
+    border: none
+}
+
+#leftContainer #calendarHolder .ui-datepicker>.ui-datepicker-header {
+    background-color: #9d001d;
+    border: 0;
+    border-radius: 0
+}
+
+#leftContainer #calendarHolder table th>span {
+    font-weight: 100
+}
+
+#leftContainer #calendarHolder .ui-datepicker-header {
+    background: 0 0
+}
+
+#leftContainer #calendarHolder .ui-datepicker-calendar {
+    background: #fff
+}
+
+#leftContainer #calendarHolder .ui-datepicker-title {
+    color: #fff
+}
+
+#leftContainer #calendarHolder .ui-datepicker-year {
+    display: none
+}
+
+#leftContainer #calendarHolder .ui-datepicker-week-end {
+    height: 30px
+}
+
+#leftContainer #calendarHolder .ui-datepicker-next-hover,
+#leftContainer #calendarHolder .ui-datepicker-next-hover.ui-state-disabled,
+#leftContainer #calendarHolder .ui-datepicker-prev-hover,
+#leftContainer #calendarHolder .ui-datepicker-prev-hover.ui-state-disabled {
+    border: 1px;
+    background: 0 0;
+    color: grey;
+    font-weight: 700
+}
+
+#leftContainer #calendarHolder .datepicker-color-handle a {
+    background-color: transparent !important;
+    background-image: none !important;
+    color: #000
+}
+
+#leftContainer #calendarHolder .datepicker-color-handle.ui-datepicker-current-day {
+    background-color: #b61028
+}
+
+#leftContainer #calendarHolder .datepicker-color-handle.ui-datepicker-current-day a {
+    color: #fff !important
+}
+
+#leftContainer #calendarHolder .badge {
+    background-color: unset;
+    font-weight: 700;
+    color: #FF3C28
+}
+
+#leftContainer #calendarHolder .ui-state-active .badge {
+    background-color: unset;
+    font-weight: 500;
+    color: #fff
+}
+
+#leftContainer #maps #minimapHolder {
+    position: relative;
+    padding: 0;
+    cursor: pointer
+}
+
+#leftContainer #maps #minimapHolder #minimap {
+    width: 100%;
+    margin: 0;
+    padding: 0
+}
+
+#leftContainer #maps #minimapHolder .mapFocus {
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%
+}
+
+#leftContainer #nmap {
+    display: inline-block
+}
+
+.ui-state-default {
+    height: 30px;
+    background: #000 !important
+}
+
+#rightContainer .btn-red {
+    border-radius: 20px;
+    backface-visibility: hidden;
+    color: #fff;
+    font-size: 14px;
+    background-color: #b61028;
+    border: 1px solid #b61028
+}
+
+#rightContainer .btn-red:hover {
+    background-color: #9A0D12
+}
+
+#rightContainer .btn-red .glyphicon-menu-right {
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #da8693
+}
+
+#rightContainer .btn-grey {
+    border-radius: 20px;
+    backface-visibility: hidden;
+    color: #fff;
+    font-size: 14px;
+    background-color: #a1a1a1;
+    border: 1px solid #a1a1a1
+}
+
+#rightContainer .btn-grey:hover {
+    background-color: #979797
+}
+
+#rightContainer .btn-grey .glyphicon-menu-right {
+    padding-left: 13px;
+    font-size: 14px;
+    font-weight: 600;
+    color: #cfcfcf
+}
+
+#rightContainer .btn-new-red,
+#rightContainer .btn-orange {
+    border-radius: 20px;
+    color: #fff;
+    font-size: 13px;
+    backface-visibility: hidden
+}
+
+#rightContainer .btn-orange {
+    background-color: #ff9666;
+    border: 1px solid #ff9666
+}
+
+#rightContainer .btn-orange:hover {
+    background-color: #ef8656
+}
+
+#rightContainer .btn-new-red {
+    background-color: #e20000;
+    border: 1px solid #e20000
+}
+
+#rightContainer .btn-new-red:hover {
+    border-color: #cb0000;
+    background-color: #cb0000
+}
+
+#rightContainer .btn-white {
+    border-radius: 20px;
+    backface-visibility: hidden;
+    color: #bfbfbf;
+    font-size: 20px;
+    background-color: #fff;
+    border: 0 solid #ff9666
+}
+
+#rightContainer .btn-white .glyphicon-menu-left,
+#rightContainer .btn-white .glyphicon-menu-right {
+    font-weight: 100;
+    font-size: 17px
+}
+
+#rightContainer .btn-download {
+    border-radius: 8px;
+    backface-visibility: hidden;
+    color: #fff;
+    background-color: #bebebe;
+    border: 1px solid #bebebe;
+    font-size: 11px
+}
+
+#rightContainer .btn-download:hover {
+    background-color: #ababab
+}
+
+#rightContainer .btn.resv {
+    padding: 3px 9px;
+    width: 83px;
+    height: 25px;
+    border-radius: 7px;
+    font-size: 13px;
+    text-align: center
+}
+
+#rightContainer #infoContainer .total-price {
+    padding: 10px 3% 0;
+    width: 100%;
+    height: 60px;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: 700;
+    text-align: right;
+    line-height: 2.2vh;
+    display: table
+}
+
+#rightContainer #infoContainer .total-price #selectedPrice {
+    float: right;
+    font-size: 28px;
+    display: inline-block;
+    min-width: 115px
+}
+
+#rightContainer #infoContainer .buttons #goToPayment {
+    margin: 0 0 35px;
+    float: right;
+    width: 50%;
+    height: 40px;
+    font-weight: 700;
+    border-radius: 0;
+    text-align: center;
+    border: 0;
+    background-color: #ff5e4e;
+    font-size: 15px
+}
+
+#rightContainer #infoContainer .buttons #goToPayment.disabled {
+    background-color: #ddd
+}
+
+#rightContainer #infoContainer #infoBody3 hr {
+    border-color: #ddd
+}
+
+#rightContainer #infoContainer #infoBody3 h3 {
+    margin: 0;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 600;
+    color: #b61028
+}
+
+#rightContainer #infoContainer #infoBody3 #noticeContainer,
+#rightContainer #infoContainer #infoBody3 #payRuleContainer,
+#rightContainer #infoContainer #infoBody3 #useRuleContainer {
+    margin: 20px 0
+}
+
+#rightContainer #infoContainer #infoBody3 #noticeContainer h4,
+#rightContainer #infoContainer #infoBody3 #payRuleContainer h4,
+#rightContainer #infoContainer #infoBody3 #useRuleContainer h4 {
+    margin: 0;
+    display: inline-block
+}
+
+#rightContainer #infoContainer #infoBody3 #noticeContainer pre {
+    min-height: 95px;
+    margin: 10px 0;
+    font-family: 'Noto Sans KR'
+}
+
+#rightContainer #infoContainer #infoBody3 #payRuleContainer pre,
+#rightContainer #infoContainer #infoBody3 #useRuleContainer pre {
+    min-height: 95px;
+    margin: 10px 0;
+    background-color: #fff;
+    border: 0
+}
+
+#rightContainer #resvTableContainer {
+    padding: 10px 35px
+}
+
+#rightContainer #resvTableContainer .title-table {
+    vertical-align: bottom;
+    border: 1px solid #d3d3d3;
+    border-bottom: 1px solid #fff;
+    width: 100%
+}
+
+#rightContainer #resvTableContainer .title-table thead {
+    background-color: #333;
+    color: #fff
+}
+
+#rightContainer #resvTableContainer .title-table thead>tr>th {
+    padding: 8px;
+    width: 200px
+}
+
+#rightContainer #resvTableContainer .title-table thead>tr>th.col-title {
+    padding-left: 23px;
+    font-size: 16px
+}
+
+#rightContainer #resvTableContainer .title-table thead>tr>th.col-date {
+    text-align: right
+}
+
+#rightContainer #resvTableContainer .title-table thead>tr>th select {
+    padding: 0 7px 0 12px;
+    width: 155px;
+    height: 23px
+}
+
+#rightContainer #resvTableContainer .table {
+    vertical-align: bottom;
+    border: 1px solid #d3d3d3;
+    width: 100%
+}
+
+#rightContainer #resvTableContainer .table>thead>tr {
+    vertical-align: bottom;
+    border: 1px solid #d3d3d3;
+    background-color: #d3d3d3
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th {
+    border: 1px solid #d3d3d3;
+    vertical-align: middle;
+    height: 42px;
+    text-align: center
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th.col-time {
+    width: 20%;
+    border-right: 1px solid #fff
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th.col-price {
+    width: 15%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th.col-team {
+    width: 25%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th.col-dn {
+    width: 15%;
+    border-left: 1px solid #fff;
+    border-right: 1px solid #fff
+}
+
+#rightContainer #resvTableContainer .table>thead>tr>th.col-resv {
+    width: 25%;
+    border-left: 1px solid #fff
+}
+
+#rightContainer #resvTableContainer .table>tbody>tr>th {
+    border: 1px solid #d3d3d3;
+    vertical-align: middle;
+    height: 42px;
+    text-align: center
+}
+
+#rightContainer #resvTableContainer .table>tbody>tr>td {
+    border: 1px solid #d3d3d3;
+    vertical-align: middle;
+    text-align: center;
+    background-color: #fff
+}
+
+#rightContainer #resvTableContainer .table>tbody>tr>td>h5 {
+    margin: 0
+}
+
+#rightContainer .ad-img {
+    padding: 0px;
+}
+
+#rightContainer .ad-img iframe {
+    min-height: 467px
+}
+
+#dim {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 5
+}
+
+#overlayContainer {
+    position: absolute;
+    width: 110%;
+    left: -5%;
+    top: 0;
+    background-color: #fff;
+    background-clip: content-box;
+    padding: 50px;
+    border-radius: 70px;
+    z-index: 6
+}
+
+#overlayContainer .form-title {
+    margin-top: 15px;
+    margin-bottom: 5px;
+    padding-left: 35px;
+    height: 45px;
+    line-height: 45px;
+    overflow: hidden;
+    white-space: nowrap;
+    -ms-text-overflow: ellipsis;
+    text-overflow: ellipsis
+}
+
+#overlayContainer .form-title .title-name {
+    font-size: 18px;
+    font-weight: 500
+}
+
+#overlayContainer .form-title .fac-name {
+    padding-left: 15px;
+    margin-left: 15px;
+    border-left: 2px solid #898989;
+    font-size: 16px;
+    font-weight: 500
+}
+
+#overlayContainer .form-title .fac-address {
+    font-size: 12px;
+    padding-left: 5px;
+    color: #898989;
+    font-weight: 400;
+    display: inline;
+    line-height: 45px
+}
+
+#overlayContainer .form-title>h3,
+#overlayContainer .form-title>h5 {
+    display: inline;
+    line-height: 45px
+}
+
+#overlayContainer #resvChkLeft {
+    margin-left: 37px;
+    margin-right: 10px;
+    padding: 0 10px 0 0
+}
+
+#overlayContainer #resvChkLeft #agreeContainer {
+    padding-bottom: 15px
+}
+
+#overlayContainer #resvChkLeft #agreeContainer .square {
+    display: inline-block;
+    margin-right: 5px;
+    padding: 3px;
+    width: 10px;
+    height: 10px;
+    background-color: #dedede
+}
+
+#overlayContainer #resvChkLeft #agreeContainer h5 {
+    display: inline-block
+}
+
+#overlayContainer #resvChkLeft #agreeContainer textarea {
+    width: 100%;
+    height: 100px;
+    font-size: 12px
+}
+
+#overlayContainer #resvChkLeft #agreeContainer input {
+    position: relative;
+    top: 2px
+}
+
+#overlayContainer #resvChkLeft #agreeContainer #agreeFacContent {
+    margin-top: 5px
+}
+
+#overlayContainer #resvChkLeft #agreeContainer .check-box-holder {
+    margin: 0 5px;
+    font-size: 12px
+}
+
+#overlayContainer #resvChkLeft #agreeContainer .text-holder {
+    margin: 0;
+    display: inline-block;
+    cursor: pointer
+}
+
+#overlayContainer #resvChkLeft #goBack {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 62px;
+    height: 50px;
+    text-align: center
+}
+
+#overlayContainer #resvChkLeft #goBack>span {
+    position: relative;
+    top: 1px
+}
+
+#overlayContainer #resvChkRight,
+#overlayContainer #resvChkRight .col-sm-6 {
+    padding: 0
+}
+
+#overlayContainer #resvChkRight .down-button-holder {
+    text-align: right
+}
+
+#overlayContainer #resvChkRight .down-button-holder #innerResvDown {
+    margin-bottom: 7px;
+    margin-right: 10px;
+    width: 150px;
+    height: 30px;
+    text-align: center
+}
+
+#overlayContainer #resvChkRight .holder {
+    height: 37px
+}
+
+#overlayContainer #resvChkRight .help-text {
+    padding-top: 5px;
+    padding-left: 10px;
+    margin: 0
+}
+
+#overlayContainer #resvChkRight .form-group {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-left: 0
+}
+
+#overlayContainer #resvChkRight .form-group>.col-sm-9 {
+    padding-left: 5px
+}
+
+#overlayContainer #resvChkRight .form-group>.col-sm-9 input,
+#overlayContainer #resvChkRight .form-group>.col-sm-9 select {
+    position: relative;
+    top: -3px;
+    width: 200px;
+    height: 26px
+}
+
+#overlayContainer #resvChkRight .form-group>.col-sm-9 select {
+    padding: 1px
+}
+
+#overlayContainer #resvChkRight .form-inline {
+    margin-bottom: 20px;
+    padding-left: 0
+}
+
+#overlayContainer #resvChkRight .form-inline>label {
+    position: relative;
+    top: 3px
+}
+
+#overlayContainer #resvChkRight label {
+    padding-left: 5px;
+    padding-right: 0
+}
+
+#overlayContainer #resvChkRight .invalid-form-error-message {
+    color: #e20000
+}
+
+#overlayContainer #resvChkRight #paymentGubun {
+    padding: 0
+}
+
+#overlayContainer #resvChkRight #submitHolder {
+    text-align: right;
+    margin-top: 13px;
+    margin-bottom: 10px
+}
+
+#overlayContainer #resvChkRight #submitHolder #submit {
+    margin-bottom: 20px;
+    padding: 0;
+    width: 65px;
+    height: 33px;
+    text-align: center;
+    font-size: 15px;
+    border-radius: 0
+}
+
+#overlayContainer #resvChkRight .form-table #resvFile {
+    text-align: center;
+    vertical-align: center
+}
+
+#overlayContainer #resvChkRight .form-table>thead>tr>th.col-date {
+    width: 35%
+}
+
+#overlayContainer #resvChkRight .form-table>thead>tr>th.col-date.pay {
+    width: 25%
+}
+
+#overlayContainer #resvChkRight .form-table #resvDoc {
+    position: absolute;
+    visibility: hidden
+}
+
+#overlayContainer #resvChkRight .form-table #browseButton {
+    font-size: 12px
+}
+
+#overlayContainer #resvChkRight .form-table #resvFileName {
+    text-overflow: ellipsis
+}
+
+#overlayContainer #resvFinContainer,
+#overlayContainer #resvFinContainer .col-sm-6 {
+    padding: 0
+}
+
+#overlayContainer #resvFinContainer .msg-holder {
+    text-align: center;
+    margin-bottom: 17px
+}
+
+#overlayContainer #resvFinContainer .msg-holder>h5 {
+    padding-top: 5px;
+    padding-left: 10px;
+    color: #ff3000;
+    font-weight: 500
+}
+
+#overlayContainer #resvFinContainer .form-inline {
+    margin-bottom: 20px;
+    padding-left: 0
+}
+
+#overlayContainer #resvFinContainer .form-inline>label {
+    position: relative;
+    top: 3px
+}
+
+#overlayContainer #resvFinContainer .form-inline>span {
+    color: #d32545
+}
+
+#overlayContainer #resvFinContainer .form-inline.poll>h6 {
+    margin-bottom: 0
+}
+
+#overlayContainer #resvFinContainer label {
+    padding-left: 10px;
+    padding-right: 0
+}
+
+#overlayContainer #resvFinContainer .close-holder {
+    text-align: center;
+    margin-top: 13px
+}
+
+#overlayContainer #resvFinContainer .close-holder #closeBtn {
+    margin-top: 5px;
+    margin-bottom: 30px;
+    padding: 0;
+    width: 125px;
+    height: 40px;
+    text-align: center;
+    font-size: 17px;
+    border-radius: 10px
+}
+
+#overlayContainer #resvFinContainer .form-table #resvFile {
+    text-align: center;
+    vertical-align: center
+}
+
+#overlayContainer #resvFinContainer .form-table>thead>tr>th.col-date {
+    width: 35%
+}
+
+#overlayContainer #resvFinContainer .form-table>thead>tr>th.col-date.pay {
+    width: 25%
+}
+
+#overlayContainer .form-table,
+#overlayContainer .option-table {
+    border-bottom: 1px solid #c9c9c9;
+    width: 100%;
+    table-layout: fixed;
+    word-break: break-all;
+    top: -2px;
+    position: relative
+}
+
+#overlayContainer .form-table {
+    border-top: 1px solid #c9c9c9
+}
+
+#overlayContainer .form-table .row-title {
+    background-color: #f2f2f2
+}
+
+#overlayContainer .form-table>thead>tr>th {
+    font-size: 13px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    vertical-align: middle;
+    height: 37px;
+    text-align: center
+}
+
+#overlayContainer .form-table>tbody>tr>td {
+    font-size: 12px;
+    border-top: 1px solid #c9c9c9;
+    border-bottom: 1px solid #c9c9c9;
+    vertical-align: middle;
+    height: 62px;
+    text-align: center
+}
+
+#overlayContainer .option-table {
+    border-top: 0
+}
+
+#overlayContainer .option-table>tbody {
+    padding: 10px 0
+}
+
+#overlayContainer .option-table>tbody>tr>td {
+    font-size: 12px;
+    border: 0;
+    vertical-align: middle;
+    height: 40px;
+    padding: 0 10px
+}
+
+#overlayContainer .option-table>tbody>tr>td>input {
+    position: relative;
+    top: 2px
+}
+
+#overlayContainer .option-table>tbody>tr>td>.form-inline {
+    padding-left: 0;
+    position: relative;
+    top: 2px
+}
+
+#overlayContainer .option-table>tbody>tr>td>.form-inline.col-sm-9 {
+    margin-bottom: 0 !important
+}
+
+#overlayContainer .option-table>tbody>tr>td>.form-inline>.oeTime,
+#overlayContainer .option-table>tbody>tr>td>.form-inline>.osTime {
+    position: relative;
+    top: -2px;
+    width: 60px;
+    height: 21px;
+    padding: 0;
+    font-size: 12px
+}
+
+#overlayContainer .option-table>tbody>tr>td>.oTimeline {
+    padding: 0;
+    position: relative;
+    top: 2px
+}
+
+#overlayContainer .total-count {
+    text-align: right;
+    padding-right: 10px;
+    padding-top: 5px;
+    font-size: 15px;
+    font-weight: 700
+}
+
+#overlayContainer #exitHolder {
+    padding-top: 25px
+}
+
+#overlayContainer #exitHolder .exit {
+    position: absolute;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    z-index: 220;
+    background-image: url(/img/close.jpg);
+    background-repeat: no-repeat
+}
+
+#overlayContainer #stepHolder {
+    margin-top: 0;
+    margin-bottom: 20px;
+    margin-left: 27px;
+    padding: 0;
+    width: 450px;
+    height: 50px;
+    z-index: 20
+}
+
+#overlayContainer #stepHolder.step1 {
+    background-image: url(/img/icons/step1.jpg)
+}
+
+#overlayContainer #stepHolder.step2 {
+    background-image: url(/img/icons/step2.jpg)
+}
+
+#overlayContainer #stepHolder.step3 {
+    background-image: url(/img/icons/step3.jpg)
+}
+
+#overlayContainer .rightSpaceStep.r1 {
+    margin-top: 30px;
+    text-align: right
+}
+
+#overlayContainer .rightSpaceStep.r2,
+#overlayContainer .rightSpaceStep.r3 {
+    height: 70px
+}
+
+#teams {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 80px;
+    height: 34px;
+    border: 0
+}
+
+.bottom-notice-guide {
+    position: fixed;
+    bottom: 0;
+    margin-left: -35px;
+    margin-bottom: 15px;
+    display: table
+}
+
+.bottom-notice-guide .bottom-content {
+    display: table-cell;
+    vertical-align: middle;
+    height: 50px;
+    background-color: #ff5e4e;
+    opacity: .9;
+    color: #fff;
+    width: 900px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: 500
+}
+
+.bottom-notice-guide.hide-bottom {
+    height: 0
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container {
+    position: relative;
+    height: 165px !important;
+    margin: 0 !important;
+    border-top: none;
+    background-color: #fff;
+    width: 100%;
+    transform: unset;
+    -webkit-transform: unset;
+    z-index: unset
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resvcal-helper {
+    text-align: right;
+    font-weight: 700;
+    font-size: 15px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container {
+    padding: 0;
+    display: table;
+    background-color: #fff;
+    letter-spacing: 0;
+    width: 100%;
+    height: 40px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .time-cell-helper {
+    text-align: left;
+    display: table-cell;
+    vertical-align: middle;
+    float: unset
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .helper-cell-square {
+    margin-left: 1%;
+    margin-right: 1%;
+    font-size: 14px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .helper-cell-square.resv-selectable {
+    color: #c5fff7
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .helper-cell-square.resv-selected {
+    color: #04eeff
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .helper-cell-square.resv-disabled {
+    color: #B1B1B1
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .top-container .helper-cell-text {
+    margin-right: 1%;
+    font-size: 13px;
+    font-weight: 700;
+    position: relative
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info {
+    font-size: 12px;
+    font-weight: 700;
+    display: table-cell;
+    vertical-align: middle;
+    float: unset;
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 0
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-left,
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-right {
+    padding-left: 0;
+    padding-right: 0;
+    display: table-cell;
+    vertical-align: middle
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-left div,
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-right div {
+    display: inline-block
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-left {
+    text-align: left;
+    float: left
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-right {
+    font-size: 15px;
+    text-align: right;
+    float: right;
+    padding-top: 2px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info .info-right.unselected {
+    color: #FF3C28
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info select {
+    padding: 0;
+    margin-top: 3px;
+    background-color: inherit;
+    border: none;
+    font-size: 15px;
+    font-weight: 700;
+    text-align-last: right;
+    font-family: inherit;
+    outline: 0;
+    -webkit-appearance: menulist
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info select option.disabled {
+    color: #B7B7B7
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .resv-info select ::-webkit-scrollbar {
+    display: none
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container {
+    height: 80px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .timetable-content {
+    background-color: #fff
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 {
+    background-color: #fff;
+    height: 100%
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .time-scroller {
+    overflow-x: scroll;
+    height: 100%
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .scroll-bar {
+    width: 100%;
+    height: 20px;
+    background: #fff;
+    margin-top: 60px;
+    line-height: 0
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .scroll-bar .handle {
+    width: 50px;
+    margin-top: 10px;
+    height: 5px;
+    background: #B1B1B1;
+    position: absolute
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view {
+    width: 2920px;
+    cursor: pointer;
+    height: 100%
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container {
+    display: inline-block;
+    width: 60px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container .badge-number {
+    height: 40px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.void {
+    width: 20px
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.resv-group-start .badge-number {
+    border-left: 2px solid #FAFAFA
+}
+
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.resv-group-end .badge-number,
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.resv-group-end .badge-number.active .badge-number,
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.resv-group-end .badge-number.add-active .badge-number,
+#infoBody2 .detail-schedule-container .timeselect-layer-container .timetable-container .resv-schedule2 .schedule-view .time-container.resv-group-end .badge-number.closed .badge-number {
+    border-right: 2px solid #FAFAFA
+}

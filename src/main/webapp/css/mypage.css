@@ -1,0 +1,113 @@
+@charset "UTF-8";
+        body {
+            overflow-y: hidden !important;
+        }
+
+        .navbar-nav {
+            flex-direction: row !important;
+        }
+
+        .modal-dialog {
+            top: 50% !important;
+            transform: translateY(-50%) !important;
+        }
+
+        .nav-item {
+            margin: 10px 0 10px 25px !important;
+        }
+
+        .nav-link {
+            font-size: 18px !important;
+        }
+
+        .input_box {
+            padding: 5px 5px;
+            width: 100%;
+            opacity: .8;
+        }
+
+        .join_row {
+            width: 100%;
+            margin-bottom: 15px !important;
+        }
+
+        .email_position {
+            margin-bottom: 15px !important;
+        }
+
+        .per_info {
+            margin-bottom: 15px !important;
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border-color: #0d6efd;
+        }
+
+        .btn-primary:hover {
+            background-color: #2949d8;
+            color: #fff;
+        }
+
+        .btn-secondary:hover {
+            color: #fff;
+            background-color: #565a5e;
+        }
+
+        .sign_up {
+            height: 630px;
+        }
+
+        .sign_body {
+            width: 310px !important;
+            padding: 14px 0 !important;
+        }
+
+        h6 {
+            margin-bottom: 6px !important;
+        }
+
+        #btn-group>li+li::before {
+            content: "";
+            position: absolute;
+            width: 1px;
+            height: 12px;
+            top: 6px;
+            margin-left: -9px;
+            border-radius: 0.5px;
+            background: #bebbbb;
+        }
+
+        tr td {
+            padding: 20px 0 20px 20px !important;
+        }
+
+        tr td:first-child {
+            background: rgb(233, 233, 233);
+            width: 20%;
+        }
+
+        tr td:last-child {
+            width: 80%;
+        }
+
+        tr td input {
+            width: 100%;
+            border: none;
+        }
+
+        tr td input:first-child {
+            border: none;
+        }
+
+        .info_table {
+            width: 100%;
+        }
+
+        .info_table tr {
+            border-top: 1px solid #999;
+        }
+
+        .info_table tr:last-child {
+            border-bottom: 1px solid #999;
+        }
